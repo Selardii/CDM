@@ -70,7 +70,7 @@ document.body.innerHTML = `
             color: #8B008B;
         }
     </style>
-    <h1>¡Bienvenidas al adorable lado oscuro de Corazón de Melón! 🍈💖🕹️</h1>
+    <h1>¡Bienvenidas al adorable lado oscuro de Amour Sucre! 🍈💖🕹️</h1>
     <p>👾💖 El Hacker Riojano: Los minijuegos están siendo adorablemente hackeados para obtener la máxima puntuación 💖👾</p>
     <div class="loader" id="loader"></div>
     <hr/>
@@ -78,7 +78,7 @@ document.body.innerHTML = `
     <hr/>
     <p>En caso de errores, sugerencias o mejoras, avísame en mi canal de YouTube 💌</p>
     <a href="https://www.youtube.com/@HansCastroJimenez" class="button" target="_blank">📹 El Hacker Riojano (YouTube) 🌐</a>
-    <a href="https://www.amoursucre.com/s1/games" class="button">Volver a Corazón de Melón 🍈💖</a>
+    <a href="https://www.amoursucre.com/s1/games" class="button">Volver a Amour Sucre 🍈💖</a>
     <div id="finished" style="display: none;">
         <h2>🎉 ¡Todos los minijuegos han terminado!</h2>
     </div>
@@ -160,7 +160,7 @@ async function startMiniGames() {
           }, i * 1000);
         });
   } catch (error) {
-    document.body.innerHTML = `<pre>¿Has iniciado sesión en Corazón de Melón? - ${error}</pre>`;
+    document.body.innerHTML = `<pre>¿Has iniciado sesión en Amour Sucre? - ${error}</pre>`;
   }
 }
 
