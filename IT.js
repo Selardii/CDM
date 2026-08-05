@@ -78,7 +78,7 @@ document.body.innerHTML = `
     <hr/>
     <p>En caso de errores, sugerencias o mejoras, avísame en mi canal de YouTube 💌</p>
     <a href="https://www.youtube.com/@HansCastroJimenez" class="button" target="_blank">📹 El Hacker Riojano (YouTube) 🌐</a>
-    <a href="https://www..dolceflirt.it/s1/games" class="button">Volver a Corazón de Melón 🍈💖</a>
+    <a href="https://wwwdolceflirt.it/s1/games" class="button">Volver a Corazón de Melón 🍈💖</a>
     <div id="finished" style="display: none;">
         <h2>🎉 ¡Todos los minijuegos han terminado!</h2>
     </div>
@@ -144,10 +144,10 @@ async function startMiniGames() {
         var privateKey = session.privateKey;
 
         var games = [
-          { method: "GET", url: "https://api3..dolceflirt.it/v2/minigame/break-basket", body: null, name: "Break Basket 1/2" },
-          { method: "POST", url: "https://api3..dolceflirt.it/v2/minigame/break-basket", body: JSON.stringify({"score":10}), name: "Break Basket 2/2" },
-          { method: "GET", url: "https://api3..dolceflirt.it/v2/minigame/insect-rush", body: null, name: "Insect Rush 1/2" },
-          { method: "POST", url: "https://api3..dolceflirt.it/v2/minigame/insect-rush", body: JSON.stringify({"score":10}), name: "Insect Rush 2/2" }
+          { method: "GET", url: "https://api3dolceflirt.it/v2/minigame/break-basket", body: null, name: "Break Basket 1/2" },
+          { method: "POST", url: "https://api3dolceflirt.it/v2/minigame/break-basket", body: JSON.stringify({"score":10}), name: "Break Basket 2/2" },
+          { method: "GET", url: "https://api3dolceflirt.it/v2/minigame/insect-rush", body: null, name: "Insect Rush 1/2" },
+          { method: "POST", url: "https://api3dolceflirt.it/v2/minigame/insect-rush", body: JSON.stringify({"score":10}), name: "Insect Rush 2/2" }
         ];
 
         games.forEach(function(game, i) {
